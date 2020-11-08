@@ -1,9 +1,20 @@
+<!-- COLOR PALLETE
+     ash black - #1a1d24
+     devil red - #e0021b
+     
+     
+     
+     
+  -->
+
+
+
 * {
     box-sizing: border-box;
   }
   
   body {
-    background-color: #000000;
+    background-color: #1a1d24;
     padding: 20px;
     font-family: Arial;
   }
@@ -14,8 +25,36 @@
     margin: auto;
   }
   
-  h1 {
-    font-size: 50px;
+ .headercls{
+    color:#ffffff;
+    font-size: 30px;
+    word-break: break-all;
+  }
+  .navcls{
+    color:#e0021b
+    background: #e0021b;
+    color: white;
+
+     }
+
+  .fa {
+      float:right;
+      padding:5px;
+      font-size: 30px;
+      width: 25px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      color:white;
+    }
+    .fa:hover {
+      color:#e0021b;
+  }
+
+  h3 {
+    color:#e0021b;
+    font-size: 25px;
     word-break: break-all;
   }
   
