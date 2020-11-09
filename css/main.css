@@ -26,11 +26,13 @@
   }
   
  .headercls{
+   display: inline;
     color:#ffffff;
     font-size: 30px;
     word-break: break-all;
   }
   .navcls{
+    display: inline;
     color:#e0021b;
     background: #e0021b;
     color: white;
