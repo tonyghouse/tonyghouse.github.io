@@ -53,8 +53,9 @@
     .fa:hover {
       color:#e0021b;
   }
-.tonybannerimg{
-  width:100vw;
+.bannerimg{
+  width:100%;
+  max-height:40%;
 }
 
   h3 {
