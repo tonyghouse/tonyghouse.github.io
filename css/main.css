@@ -30,16 +30,19 @@
     color:#ffffff;
     font-size: 30px;
     word-break: break-all;
+    padding:2%;
   }
   .navcls{
     display: inline;
     color:#e0021b;
     background: #e0021b;
     color: white;
+    padding:2%;
 
      }
 
   .fa {
+
       float:right;
       padding:5px;
       font-size: 30px;
@@ -54,6 +57,7 @@
       color:#e0021b;
   }
 .bannerimg{
+  padding:10px 0px;
   width:100%;
   max-height:40%;
 }
