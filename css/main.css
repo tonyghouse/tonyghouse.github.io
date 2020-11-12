@@ -54,15 +54,6 @@
       color:#e0021b;
   }
 
-  .imgbox {
-          display: grid;
-          height:100%;
-        }
-   .tonybannerimg {
-            max-width:100vw;
-            max-height: 100vh;
-            margin: auto;
-        }
 
   h3 {
     color:#e0021b;
