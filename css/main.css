@@ -17,12 +17,12 @@
   body {
     background-color:#101115;
     padding: 20px;
-    font-family:orkney;
+    font-family:orkneybold;
   }
 
   @font-face {
-    font-family:"orkney";
-    src:url("..\assets\fonts\orkney\orkneybold.otf") format("opentype");
+    font-family:orkneybold;
+    src:url("assets\fonts\orkney\orkneybold.otf") format("opentype");
     font-weight:bold;
   }
   
@@ -37,7 +37,7 @@
     color:#ffffff;
     font-size: 30px;
     word-break: break-all;
-    padding:2%;
+    padding:2% 0%;
   }
   .navcls{
     display: inline;
