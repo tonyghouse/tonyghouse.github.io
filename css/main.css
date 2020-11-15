@@ -17,13 +17,18 @@
   body {
     background-color:#101115;
     padding: 20px;
-    font-family:'orkneybold';
+    font-family:'orkneybolditalic';
   }
 
   @font-face {
     font-family:'orkneybold';
     src:url("..\assets\fonts\orkney\orkneybold.otf") format("opentype");
     font-weight:bold;
+  }
+
+  @font-face {
+    font-family:'orkneybolditalic';
+    src:url("..\assets\fonts\orkney\orkneybolditalic.otf") format("opentype");
   }
   
   /* Center website */
