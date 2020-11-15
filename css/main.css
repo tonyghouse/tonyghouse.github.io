@@ -17,12 +17,12 @@
   body {
     background-color:#101115;
     padding: 20px;
-    font-family:orkneybold;
+    font-family:'orkneybold';
   }
 
   @font-face {
-    font-family:orkneybold;
-    src:url("assets\fonts\orkney\orkneybold.otf") format("opentype");
+    font-family:'orkneybold';
+    src:url("..\assets\fonts\orkney\orkneybold.otf") format("opentype");
     font-weight:bold;
   }
   
