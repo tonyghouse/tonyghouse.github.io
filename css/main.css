@@ -17,12 +17,13 @@
   body {
     background-color:#101115;
     padding: 20px;
-    font-family:orkney,sans-serif;
+    font-family:orkney;
   }
 
   @font-face {
-    font-family: sans-serif;
-    src:url("\assets\fonts\orkney\orkney");
+    font-family:"orkney";
+    src:url("\assets\fonts\orkney\orkneybold.otf") format("opentype");
+    font-weight:bold;
   }
   
   /* Center website */
