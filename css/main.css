@@ -22,7 +22,7 @@
 
   @font-face {
     font-family:"orkney";
-    src:url("\assets\fonts\orkney\orkneybold.otf") format("opentype");
+    src:url("..\assets\fonts\orkney\orkneybold.otf") format("opentype");
     font-weight:bold;
   }
   
@@ -70,9 +70,14 @@
   max-height:40%;
 }
 
-  h3 h4 {
+  h3 {
     color:#e0021b;
     font-size: 25px;
+    word-break: break-all;
+  }
+  h4 {
+    color:#101115;
+    font-size: 18px;
     word-break: break-all;
   }
   
