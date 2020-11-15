@@ -1,4 +1,5 @@
 <!-- COLOR PALLETE
+     dark black-#101115
      ash black - #1a1d24
      devil red - #e0021b
      
@@ -35,7 +36,7 @@
   .navcls{
     display: inline;
     color:#e0021b;
-    background: #e0021b;
+   
     color: white;
     padding:2%;
 
@@ -44,6 +45,7 @@
   .fa {
 
       float:right;
+      direction:ltr;
       padding:5px;
       font-size: 30px;
       width: 25px;
