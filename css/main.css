@@ -54,6 +54,8 @@ COLOR PALLETE
 
   .navcls{
     display:inline-flex;
+    justify-content:left;
+
     color:white;
     padding:2% 0%;
 
@@ -61,7 +63,7 @@ COLOR PALLETE
 
   .fa{
     padding:5px;
-    font-size:10%;
+    font-size:150%;
     width:25px;
     text-align:right;
     text-decoration: none;
