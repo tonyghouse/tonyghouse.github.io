@@ -17,7 +17,7 @@ COLOR PALLETE
   body {
     background-color:#101115;
     padding:20px;
-    font-family:'orkneybolditalic';
+    font-family:'orkneymediumitalic';
   }
 
 
@@ -31,6 +31,11 @@ COLOR PALLETE
     font-family:'orkneybolditalic';
     src:url("../assets/fonts/orkney/orkneybolditalic.otf") format("opentype");
   }
+
+  @font-face {
+    font-family:'orkneymediumitalic';
+    src:url("../assets/fonts/orkney/orkneymediumitalic.otf") format("opentype");
+  }
   
   /* Center website */
   .main {
@@ -41,6 +46,7 @@ COLOR PALLETE
  .headercls{
     display: inline;
     color:#ffffff;
+    font-family:'orkneybolditalic';
     font-size: 30px;
     word-break: break-all;
     padding:2.5% 0%;
@@ -78,6 +84,7 @@ COLOR PALLETE
     color:#e0021b;
     font-size: 25px;
     word-break: break-all;
+    font-family:'orkneybolditalic';
   }
   h4{
     color:#101115;
