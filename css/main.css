@@ -112,6 +112,7 @@ COLOR PALLETE
   .column {
     float: left;
     width: 23%;
+    text-decoration:none;
   }
   
   /* Clear floats after rows */
