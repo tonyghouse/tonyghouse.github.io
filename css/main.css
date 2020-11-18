@@ -43,7 +43,7 @@ COLOR PALLETE
     margin: auto;
   }
   .headbar{
-    display:block;
+    display:table;
   }
  .headercls{
     display:inline;
