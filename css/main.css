@@ -98,6 +98,7 @@ COLOR PALLETE
   .row{
     margin: 8px -16px;
     text-decoration:none;
+    
   }
   .column:hover{
     background-color:#e0021b;
@@ -125,6 +126,7 @@ COLOR PALLETE
   
   /* Content */
   .content {
+    text-decoration:none;
     background-color: white;
     padding: 10px;
   }
