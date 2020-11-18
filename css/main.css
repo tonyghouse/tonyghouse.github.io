@@ -56,7 +56,7 @@ COLOR PALLETE
 
   .navcls{
     text-align: right;
-    display:flex;
+    float:right;
     color:white;
     padding:2% 0%;
 
