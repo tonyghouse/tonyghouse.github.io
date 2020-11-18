@@ -55,6 +55,7 @@ COLOR PALLETE
   }
 
   .navcls{
+    display:inline-block;
     text-align: right;
     float:right;
     color:white;
