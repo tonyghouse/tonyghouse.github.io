@@ -46,7 +46,7 @@ COLOR PALLETE
     display:block;
   }
  .headercls{
-    display:inline;
+    display:inline-block;
     color:#ffffff;
     font-family:'orkneybolditalic';
     font-size: 30px;
