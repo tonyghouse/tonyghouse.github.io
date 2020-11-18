@@ -42,7 +42,9 @@ COLOR PALLETE
     max-width: 1000px;
     margin: auto;
   }
-  
+  .headbar{
+    display:block;
+  }
  .headercls{
     display:inline;
     color:#ffffff;
