@@ -98,7 +98,8 @@ COLOR PALLETE
   .row{
     margin: 8px -16px;
   }
-  .colum:hover{
+  .column:hover{
+    background-color:#e0021b;
     
   }
   /* Add padding BETWEEN each column (if you want) */
