@@ -108,7 +108,7 @@ COLOR PALLETE
   /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    text-decoration:none;
+  
     padding: 8px;
   }
   
