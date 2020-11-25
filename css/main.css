@@ -83,6 +83,10 @@ COLOR PALLETE
     width:100%;
     max-height:50%;
   }
+  .bannerimg:hover{
+    background-color:#e0021b;
+    
+  }
 
   h3{
     color:#e0021b;
@@ -119,6 +123,7 @@ COLOR PALLETE
     
   }
   .column a{
+    color:black;
     text-decoration: none;
   }
   
