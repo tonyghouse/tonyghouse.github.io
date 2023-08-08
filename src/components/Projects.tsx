@@ -22,11 +22,11 @@ function Projects() {
 
       links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/ghousek1/memoirist"
+        "url":"https://github.com/tonyghouse/memoirist"
       },
       {
         "icon":<FaExternalLinkAlt/>,
-        "url":"https://memoirist.ghousek1.com"
+        "url":"https://memoirist.tonyghouse.com"
       }],
       imageLight: MemoiristLightBanner,
       imageDark: MemoiristDarkBanner,
@@ -38,11 +38,11 @@ function Projects() {
     //   tags: ["SpringBoot", "React", "Postgres", "KeyCloak", "Kafka", "Redis"],
     //   links:[{
     //     "icon":<FaGithub/>,
-    //     "url":"https://github.com/ghousek1/social-raven"
+    //     "url":"https://github.com/tonyghouse/social-raven"
     //   },
     //   {
     //     "icon":<FaExternalLinkAlt/>,
-    //     "url":"https://socialraven.ghousek1.com"
+    //     "url":"https://socialraven.tonyghouse.com"
     //   }]
     //   imageLight: SocialRavenLightBanner,
     //   imageDark: SocialRavenDarkBanner,
@@ -54,11 +54,11 @@ function Projects() {
       tags: ["React", "Tailwind", "ReactFlow", "CodeEditor"],
       links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/ghousek1/viscody"
+        "url":"https://github.com/tonyghouse/viscody"
       },
       {
         "icon":<FaExternalLinkAlt/>,
-        "url":"https://viscody.ghousek1.com"
+        "url":"https://viscody.tonyghouse.com"
       }],
       imageLight: ViscodyLightBanner,
       imageDark: ViscodyDarkBanner,
@@ -72,11 +72,11 @@ function Projects() {
       links: [
         {
           "icon":<FaGithub/>,
-          "url":"https://github.com/ghousek1/regel"
+          "url":"https://github.com/tonyghouse/regel"
         },
         {
           "icon":<FaExternalLinkAlt/>,
-          "url":"https://regel.ghousek1.com"
+          "url":"https://regel.tonyghouse.com"
         }
       ],
       tags: ["Javascript", "React"],
@@ -86,7 +86,7 @@ function Projects() {
       description: "Authenticaion & Authorization server with simplicity",
       links: [ {
         "icon":<FaGithub/>,
-        "url":"https://github.com/ghousek1/knight-auth-server"
+        "url":"https://github.com/tonyghouse/knight-auth-server"
       }],
       tags: ["Javascript", "Cloudflare-Workers", "Keycloak", "Postgres"],
     },
@@ -95,11 +95,11 @@ function Projects() {
       description: "Monitoring tool to observe apps in environments",
       links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/ghousek1/tern-monitoring-tool"
+        "url":"https://github.com/tonyghouse/tern-monitoring-tool"
       },
       {
         "icon":<FaExternalLinkAlt/>,
-        "url":"https://tern.ghousek1.com"
+        "url":"https://tern.tonyghouse.com"
       }],
       tags: ["Java", "Spring", "Postgres", "Kafka"],
     },
@@ -138,7 +138,7 @@ function Projects() {
               Other Projects
             </h3>
             <a
-              href="https://github.com/ghousek1?tab=repositories"
+              href="https://github.com/tonyghouse?tab=repositories"
               className={"accent font-monospace text-sm"}
             >
               view github repos

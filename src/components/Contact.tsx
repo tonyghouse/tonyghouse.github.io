@@ -37,7 +37,7 @@ function Contact() {
               className="slate font-[330] leading-normal  tracking-tight
                           opacity-60 text-[0.6rem] lg:text-2xl "
             >
-              ghousek1@outlook.com
+              tonyghouseofficial@gmail.com
             </div>
           </div>
 

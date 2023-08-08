@@ -17,7 +17,6 @@ function Hero() {
             <h1 className="inline-block slate mb-2 mt-6 md:mt-8 py-1 text-4xl font-[600] md:py-2 md:text-[2.3rem] md:leading-[2.7rem] lg:text-[2.7rem] lg:leading-[3rem] font-Poppins ">
              Tony Ghouse
             </h1>
-            <div className="text-lg font-normal slate">(one)</div>
           </div>
 
           <h2
@@ -36,7 +35,7 @@ function Hero() {
 
           <div className="flex w-full py-4 pr-2 my-2 cursor-pointer font-monospace md:my-4 md:w-fit md:pr-4 ">
             <a
-              href="https://github.com/ghousek1"
+              href="https://github.com/tonyghouse"
               target="_blank"
               rel="noreferrer"
               className="slate inline py-2 pr-6 text-[1.6rem] font-[400] opacity-60 md:pr-8 md:text-[2rem]"
@@ -44,7 +43,7 @@ function Hero() {
               <FaGithub/>
             </a>
             <a
-              href="https://www.linkedin.com/in/ghousek1/"
+              href="https://www.linkedin.com/in/tonyghouse/"
               target="_blank"
               rel="noreferrer"
               className="slate inline py-2 pr-6 text-[1.6rem] font-[400] opacity-60 md:pr-8 md:text-[2rem]"
@@ -52,7 +51,7 @@ function Hero() {
               <FaLinkedin/>
             </a>
             <a
-              href="https://twitter.com/ghousek1ofcl"
+              href="https://twitter.com/tonyghouse"
               target="_blank"
               rel="noreferrer"
               className="slate inline py-2 pr-6 text-[1.6rem] font-[400] opacity-60 md:pr-8 md:text-[2rem]"
@@ -60,7 +59,7 @@ function Hero() {
              <FaTwitter/>
             </a>
             <a
-              href="https://leetcode.com/ghousek1/"
+              href="https://leetcode.com/tonyghouse/"
               target="_blank"
               rel="noreferrer"
               className="slate inline py-2 pr-6 text-[1.6rem] font-[400] opacity-60 md:pr-8 md:text-[2rem]"
@@ -69,7 +68,7 @@ function Hero() {
             </a>
 
             <a
-              href="mailto:ghousek1@outlook.com"
+              href="mailto:tonyghouseofficial@gmail.com"
               target="_blank"
               rel="noreferrer"
               className="slate inline py-2 pr-6 text-[1.6rem] font-[400] opacity-60 md:pr-8 md:text-[2rem]"

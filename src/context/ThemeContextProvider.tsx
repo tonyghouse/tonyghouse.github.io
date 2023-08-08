@@ -14,11 +14,11 @@ const ThemeContextDefaultProvider = (props: any) => {
         userColorScheme = event.matches ? "dark" : "light";
       });
 
-     const themeValue= localStorage.getItem('ghousek1ThemeValue');
+     const themeValue= localStorage.getItem('tonyghouseThemeValue');
      const colorScheme: ThemeMode = (themeValue === "dark" || themeValue === "light") 
                         ?  themeValue : userColorScheme;
                         
-   localStorage.setItem('ghousek1ThemeValue', colorScheme);
+   localStorage.setItem('tonyghouseThemeValue', colorScheme);
     setUserThemeMode(colorScheme);
   }, []);
 
@@ -75,7 +75,7 @@ const ThemeContextDefaultProvider = (props: any) => {
 
   const toggleUserThemeMode = () => {
     let toggledThemeMode: ThemeMode = userThemeMode === "dark" ? "light" : "dark";
-    localStorage.setItem('ghousek1ThemeValue', toggledThemeMode);
+    localStorage.setItem('tonyghouseThemeValue', toggledThemeMode);
     setUserThemeMode(toggledThemeMode);
   };
 

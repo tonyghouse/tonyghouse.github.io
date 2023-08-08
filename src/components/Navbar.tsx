@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
 import {FaAdjust,FaAlignJustify} from "react-icons/fa";
 import {RxSun,RxMoon} from "react-icons/rx";
+import TonyGhouseLogo from "../assets/svgs/tonyghouselogo.svg";
 
 function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
@@ -30,7 +31,11 @@ function Navbar() {
       className="flex h-[5rem] w-full items-center justify-between px-4 md:px-6  "
     >
       <a href="/" className="z-[100] cursor-pointer">
-        <span className="accent bold text-3xl font-[550] font-Poppins">K1</span>
+        <img
+                src={TonyGhouseLogo}
+                className="w-6 h-6 mx-auto mb-1 md:mb-2 md:w-16 md:h-16 grayscale hover:grayscale-0 "
+                alt="logo"
+              />
       </a>
       <div
         className={`${sideMenu ? "flex" : "hidden md:flex"} 
@@ -42,7 +47,7 @@ function Navbar() {
         <ul
           className="slate font-[440] mr-2 flex flex-col font-monospace 
                        text-[1rem] leading-[2rem] tracking-[0.17rem]
-                       md:flex-row md:text-[0.85rem] md:leading-[2rem]"
+                       md:flex-row md:text-[0.95rem] md:leading-[3rem]"
         >
           {navlinks.map((navLink) => (
             <li key={navLink.id} className="px-5 py-3 md:px-4 md:py-0 ">

@@ -5,11 +5,11 @@ export default function Footer() {
         Built by{" "} 
           <a
             className={"hover-accent"}
-            href={"https://github.com/ghousek1"}
+            href={"https://github.com/tonyghouse"}
             target={"_blank"}
             rel="noreferrer"
           >
-           GhouseK1
+          Tony Ghouse
           </a>
         </span>
       </div>

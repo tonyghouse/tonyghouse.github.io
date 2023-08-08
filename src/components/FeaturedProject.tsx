@@ -28,7 +28,7 @@ function FeaturedProject({
           } h-full md:h-auto md:w-full `}
         >
           <a
-            href={links[1]}
+            href={links[1].url}
             target="_blank"
             rel="noreferrer"
           >
@@ -47,7 +47,7 @@ function FeaturedProject({
           <span className="mb-2 text-base font-monospace accent">
             Featured Project
           </span>
-          <a target="_blank" rel="noreferrer" href={links[0]}>
+          <a target="_blank" rel="noreferrer" href={links[1].url}>
             <h3
               className={
                 "cursor-pointer slate hover-accent text-2xl font-[600] font-Poppins"
