@@ -3,7 +3,8 @@ import { Link } from "react-scroll";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
 import {FaAdjust,FaAlignJustify} from "react-icons/fa";
 import {RxSun,RxMoon} from "react-icons/rx";
-import TonyGhouseLogo from "../assets/svgs/tonyghouselogo.svg";
+import TonyLightLogo from "../assets/svgs/tonylightlogo.svg";
+import TonyDarkLogo from "../assets/svgs/tonydarklogo.svg";
 
 function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
@@ -32,8 +33,8 @@ function Navbar() {
     >
       <a href="/" className="z-[100] cursor-pointer">
         <img
-                src={TonyGhouseLogo}
-                className="w-6 h-6 mx-auto mb-1 md:mb-2 md:w-16 md:h-16 grayscale hover:grayscale-0 "
+                src={themeContext.themeMode ==="dark" ? TonyLightLogo : TonyDarkLogo} 
+                className="w-8 h-8 mx-auto mb-1 md:mb-2 md:w-14 md:h-14 "
                 alt="logo"
               />
       </a>
