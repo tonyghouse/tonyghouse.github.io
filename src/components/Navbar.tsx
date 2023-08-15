@@ -32,10 +32,10 @@ function Navbar() {
       className="flex h-[5rem] w-full items-center justify-between px-4 md:px-6  "
     >
       <a href="/" className="z-[100] cursor-pointer">
-        <div className="flex flex-row items-center justify-center w-8 h-12 mb-1 md:mb-2 md:w-14 md:h-22 ">
+        <div className="flex items-center justify-start w-[2.7rem] h-[3.2rem]  md:w-[4.3rem] md:h-[5.4rem] bg-[#2e2e2e]">
           <img
-            src={themeContext.themeMode === "dark" ? TonyLightLogo : TonyDarkLogo}
-            className="w-8 h-8 mx-auto mb-1 md:mb-2 md:w-14 md:h-14 "
+            src={TonyLightLogo}
+            className="w-[2rem] h-[2rem] mx-auto md:w-12 md:h-12"
             alt="logo"
           />
         </div>

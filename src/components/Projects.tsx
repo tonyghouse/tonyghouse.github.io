@@ -145,7 +145,7 @@ function Projects() {
             </a>
           </div>
           
-          <div className="grid w-full gap-4 md:grid-cols-3">
+          <div className="grid w-full gap-4 md:grid-cols-3 ">
             {otherProjectList.map((p) => {
               return (
                 <Project

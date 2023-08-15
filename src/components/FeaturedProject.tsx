@@ -34,7 +34,8 @@ function FeaturedProject({
           >
             <img
               src={themeContext.themeMode === "dark" ? imageDark : imageLight}
-              className={` h-full object-cover md:object-contain drop-shadow-2xl `}
+              className={` ${themeContext.themeMode === "dark" ? "shadow-[#212121]" : "shadow-gray-400"}
+                shadow-2xl  h-full object-cover md:object-contain `}
               alt="project-image"
             />
           </a>

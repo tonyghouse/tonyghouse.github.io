@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
-// import { AspectRatio } from "@/components/ui/aspect-ratio";
 import {FaGithub,FaLinkedin,FaTwitter ,FaEnvelope} from "react-icons/fa";
 import {SiLeetcode} from "react-icons/si";
 
-import HeroBannerLightImage from "../assets/images/hero-banner-image-light.png";
-import HeroBannerDarkImage from "../assets/images/hero-banner-image-dark.png";
+
+import HeroAnimo from "./HeroAnimo";
 
 function Hero() {
   const themeContext = useContext<IThemeContextType>(ThemeContext);
@@ -78,14 +77,7 @@ function Hero() {
           </div>
         </div>
         <div className="hidden below-md:flex below-md:flex-col below-md:h-[90%]  below-md:w-[45%] justify-center py-4 ">
-          {/* <AspectRatio ratio={16 / 9} > */}
-            <img
-              src={`${themeContext.themeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage }`}
-              alt="hero-banner"
-              className=" object-contain h-full w-full "
-            />
-          {/* </AspectRatio> */}
-
+          <HeroAnimo/>
         </div>
       </div>
     </>

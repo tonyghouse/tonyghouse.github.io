@@ -13,10 +13,10 @@ function SourceRepo({ title, description, links, tags, prList }: any) {
       <div
         className={` ${
           themeContext.themeMode === "dark"
-            ? "shadow-[#151515]"
+            ? "shadow-[#212121]"
             : "shadow-gray-400"
         }
-        flex flex-col p-8 rounded shadow-2xl div-back `}
+        flex flex-col p-8 shadow-2xl div-back `}
       >
         <div className="flex items-center justify-between">
           <FaOsi className="text-3xl accent" />
@@ -65,7 +65,7 @@ function SourceRepo({ title, description, links, tags, prList }: any) {
                        {" "}
                         <span
                           className="text-[0.75rem] leading-[1.15rem] inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full 
-                             font-monospace  bg-[#8957e5] text-white "
+                             font-monospace bg-[#1f2024] opacity-60 hover:bg-[#8957e5] hover:opacity-100 text-white "
                         >
                           <BiGitMerge />
                           {pr.status}

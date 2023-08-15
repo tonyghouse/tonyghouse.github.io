@@ -10,8 +10,8 @@ function Project({ title, description, links, tags }:any) {
 
   return (
     <>
-      <div className={` ${ themeContext.themeMode === "dark" ? "shadow-[#151515]" : "shadow-gray-400"}
-       flex flex-col p-8 rounded shadow-2xl  div-back  `}>
+      <div className={` ${ themeContext.themeMode === "dark" ? "shadow-[#212121]" : "shadow-gray-400"}
+       flex flex-col p-8 rounded shadow-2xl  div-back   `}>
         <div className="flex items-center justify-between">
           <FaRegFolder className="text-3xl accent"/>
           <div className="flex items-center slate">
