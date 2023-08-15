@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-scroll";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
-import {FaAdjust,FaAlignJustify} from "react-icons/fa";
-import {RxSun,RxMoon} from "react-icons/rx";
+import { FaAdjust, FaAlignJustify } from "react-icons/fa";
+import { RxSun, RxMoon } from "react-icons/rx";
 import TonyLightLogo from "../assets/svgs/tonylightlogo.svg";
 import TonyDarkLogo from "../assets/svgs/tonydarklogo.svg";
 
@@ -14,7 +14,7 @@ function Navbar() {
   const toggleSideMenu = () => {
     setSideMenu(!sideMenu);
   };
-  
+
   const toggleTheme = () => {
     themeContext.toggleThemeMode();
   };
@@ -32,11 +32,13 @@ function Navbar() {
       className="flex h-[5rem] w-full items-center justify-between px-4 md:px-6  "
     >
       <a href="/" className="z-[100] cursor-pointer">
-        <img
-                src={themeContext.themeMode ==="dark" ? TonyLightLogo : TonyDarkLogo} 
-                className="w-8 h-8 mx-auto mb-1 md:mb-2 md:w-14 md:h-14 "
-                alt="logo"
-              />
+        <div className="flex flex-row items-center justify-center w-8 h-12 mb-1 md:mb-2 md:w-14 md:h-22 ">
+          <img
+            src={themeContext.themeMode === "dark" ? TonyLightLogo : TonyDarkLogo}
+            className="w-8 h-8 mx-auto mb-1 md:mb-2 md:w-14 md:h-14 "
+            alt="logo"
+          />
+        </div>
       </a>
       <div
         className={`${sideMenu ? "flex" : "hidden md:flex"} 
@@ -67,12 +69,8 @@ function Navbar() {
           ))}
           <li key="theme" className="px-5 py-3 md:px-4 md:py-0 ">
             <button onClick={toggleTheme}>
-             {themeContext.themeMode ==="dark" ?
-              <RxMoon />
-             : <RxSun />}
-             </button>
-
-            
+              {themeContext.themeMode === "dark" ? <RxMoon /> : <RxSun />}
+            </button>
           </li>
         </ul>
       </div>

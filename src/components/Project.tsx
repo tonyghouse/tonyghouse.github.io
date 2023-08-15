@@ -35,7 +35,7 @@ function Project({ title, description, links, tags }:any) {
         <p className={`slate pt-2 text-sm cursor-default font-Inter`}>
           {description}
         </p>
-        <ul className="flex flex-wrap items-center mt-6 text-sm cursor-default slate opacity-60 font-monospace">
+        <ul className="flex flex-wrap items-center mt-6 text-sm cursor-default font-[450] slate opacity-60 font-monospace">
           {tags.map((t:any, i:any) => {
             return (
               <li key={i} className="mr-5 whitespace-nowrap">

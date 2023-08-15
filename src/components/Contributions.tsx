@@ -8,7 +8,7 @@ function Contributions() {
         {
     
           title: "Meilisearch Java",
-          description: "Java client for meilisearch search engine(open source alternative to elastic search)",
+          description: "Java client SDK for meilisearch search engine(open source alternative to elastic search)",
           links: [
             
             {
@@ -16,19 +16,59 @@ function Contributions() {
               "url":"https://github.com/meilisearch/meilisearch-java"
             }
           ],
-          tags: ["Meilisearch:34536 stars ",
-           "Meilisearch-java:104 stars"],
+         prList:[
+            
+           {
+             title:"Correction of naming methods related to Ranking Rules",
+             issueNumber:"525",
+             prNumber:"539",
+             prLink:"https://github.com/meilisearch/meilisearch-java/pull/539",
+             status:"Merged"
+           },
+            {
+              title:"Replaced traditional getter setter with lombok getter setter",
+              issueNumber:"379",
+              prNumber:"385",
+              prLink:"https://github.com/meilisearch/meilisearch-java/pull/385",
+              status:"Merged"
+            },
+            {
+              title:"Added total tasks in task route ",
+              issueNumber:"636",
+              prNumber:"637",
+              prLink:"https://github.com/meilisearch/meilisearch-java/pull/637",
+              status:"Merged"
+            },
+          ],
+
+          tags: [
+            "Meilisearch: 38200 Stars",
+           "Meilisearch-java: 104 Stars"],
         },
-        // {
-        //   title: "Ryze project",
-        //   description: "Ryze private project",
-        //   links: [
-        //     {
-        //       "icon":<FaGithub/>,
-        //       "url":"https://github.com/ghousek1/ryze"
-        //     }],
-        //   tags: ["Ryze project:(unknown) stars"],
-        // }
+        {
+          title: "Meilisearch Go",
+          description: "Go client SDK for meilisearch search engine(open source alternative to elastic search)",
+          links: [
+            {
+              "icon":<FaGithub/>,
+              "url":"https://github.com/meilisearch/meilisearch-go"
+            }],
+
+            prList:[
+              {
+                title:"Added total tasks in task route ",
+                issueNumber:"636",
+                prNumber:"471",
+                prLink:"https://github.com/meilisearch/meilisearch-go/issues/471",
+                status:"Merged"
+              }
+            ],
+  
+            tags: [
+            "Meilisearch: 38200 Stars",
+            "Meilisearch-go: 373 Stars"
+          ],
+        }
       ];
     
   return (
@@ -40,7 +80,7 @@ function Contributions() {
           Open-source <span className="block md:inline">contributions</span>
         </h3>
       </div>
-      <div className="grid w-full gap-4 md:grid-cols-1">//TODO
+      <div className="grid w-full gap-4 grid-cols-1 md:grid-cols-2">
     
     {contributedRepoList.map((p, i) => {
       return (
@@ -49,6 +89,7 @@ function Contributions() {
           title={p.title}
           description={p.description}
           tags={p.tags}
+          prList={p.prList}
           links={p.links}
         />
       );
