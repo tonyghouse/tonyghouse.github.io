@@ -31,11 +31,15 @@ function Navbar() {
       id="navigation"
       className="flex h-[5rem] w-full items-center justify-between px-4 md:px-6  "
     >
-      <a href="/" className="z-[100] cursor-pointer">
-        <div className="flex items-center justify-start w-[2.7rem] h-[3.2rem]  md:w-[4.3rem] md:h-[5.4rem] bg-[#2e2e2e]">
+      <a href="/" className="cursor-pointer z-[100] ">
+
+        <div className={` ${themeContext.themeMode ==="dark" ? "" : "bg-[#090909]"} 
+         flex items-center justify-start w-[3.6rem] h-[5.1rem]  md:w-[4.1rem]
+         md:h-[5.1rem] `}>
           <img
             src={TonyLightLogo}
-            className="w-[2rem] h-[2rem] mx-auto md:w-12 md:h-12"
+            
+            className="w-[2.2rem] h-[2.2rem] mx-auto md:w-11 md:h-11"
             alt="logo"
           />
         </div>

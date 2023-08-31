@@ -36,15 +36,15 @@ function SourceRepo({ title, description, links, tags, prList }: any) {
             })}
           </div>
         </div>
-        <h4 className="slate pt-6 cursor-default font-[600] font-Poppins">
+        <h4 className="slate pt-6 cursor-default font-[600] font-poppins">
           {title}
         </h4>
-        <p className={`slate pt-2 text-sm cursor-default font-Inter`}>
+        <p className={`slate pt-2 text-sm cursor-default font-inter`}>
           {description}
         </p>
 
         <div className="mt-6 flex-1">
-          <div className="slate pb-2 text-[0.95rem] leading-[1.3rem] cursor-default font-[520] font-Inter">
+          <div className="slate pb-2 text-[0.95rem] leading-[1.3rem] cursor-default font-[520] font-inter">
             Contributions:
           </div>
           <div className="flex flex-col items-start cursor-default slate font-monospace font-[400]">
@@ -56,15 +56,15 @@ function SourceRepo({ title, description, links, tags, prList }: any) {
                 >
                   <a href={pr.prLink} target="_blank">
                     <div className="flex flex-col md:flex-row w-full items-center ">
-                      <div className="w-full md:w-[75%]  text-[0.95rem] leading-[1.3rem] hover:underline
+                      <div className="w-full md:w-[75%]  text-[0.8rem] leading-[1.15rem]  md:text-[0.95rem] md::leading-[1.3rem] hover:underline
                       whitespace-nowrap overflow-hidden text-ellipsis">
                        <MdArrowRight className="inline" /> {pr.title}
                       </div>
                       <div className="w-full md:w-[25%] md:text-end pr-5 mt-2 ml-1 md:mt-none md:ml-none ">
-                      <span className="text-[#ff1717] text-[0.9rem] leading-[1.3rem]"> #{pr.prNumber} </span>
+                      <span className="text-[#FF0032] text-[0.75rem] leading-[1.15rem]  md:text-[0.9rem] md::leading-[1.3rem] "> #{pr.prNumber} </span>
                        {" "}
                         <span
-                          className="text-[0.75rem] leading-[1.15rem] inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full 
+                          className="text-[0.6rem] leading-[1rem] md:text-[0.75rem] md:leading-[1.15rem] inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full 
                              font-monospace bg-[#1f2024] opacity-60 hover:bg-[#8957e5] hover:opacity-100 text-white "
                         >
                           <BiGitMerge />

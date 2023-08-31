@@ -103,7 +103,8 @@
   /* --custom-header-lines-color-dark: #545a65; */
   
   /* highlighted-color */
-  --custom-highlighted-color: #ff1717;
+  /* --custom-highlighted-color: #ff1717; */
+  --custom-highlighted-color: #FF0032;
   
   /* scroll bar color*/
   --custom-scrollbar-color: #8289ad;

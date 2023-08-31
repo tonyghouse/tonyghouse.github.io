@@ -113,7 +113,7 @@ function Projects() {
       >
         <div className="flex items-center w-full pb-10 header-line ">
           <span className="mr-4 text-xl accent font-monospace">03.</span>
-          <h3 className="slate whitespace-nowrap text-2xl font-[600] font-Poppins">
+          <h3 className="slate whitespace-nowrap text-2xl font-[600] font-poppins">
             Featured Projects
           </h3>
         </div>
@@ -134,7 +134,7 @@ function Projects() {
 
         <div className="flex flex-col items-center w-full ">
           <div className="flex flex-col items-center justify-center w-full pb-4">
-            <h3 className="slate mb-[0.3rem] text-2xl font-[600] font-Poppins">
+            <h3 className="slate mb-[0.3rem] text-2xl font-[600] font-poppins">
               Other Projects
             </h3>
             <a

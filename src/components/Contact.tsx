@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import SignDark from "../assets/svgs/sign-dark.svg";
 import SignLight from "../assets/svgs/sign-light.svg";
 import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
+import ProfileCard from "./ProfileCard";
 
 function Contact() {
   const themeContext = useContext<IThemeContextType>(ThemeContext);
@@ -14,7 +15,7 @@ function Contact() {
       >
         <div className="header-line flex w-full items-center pb-8">
           <span className="accent mr-4 font-monospace text-xl">05.</span>
-          <h3 className="slate whitespace-nowrap text-2xl font-[600] font-Poppins">
+          <h3 className="slate whitespace-nowrap text-2xl font-[600] font-poppins">
             Contact
           </h3>
         </div>
@@ -26,23 +27,12 @@ function Contact() {
           }
         div-back relative flex  h-[34rem] w-full flex-col items-center rounded p-8 shadow-2xl md:h-[30rem]  md:flex-row `}
         >
-          <div className="hidden md:flex h-[40%] w-[100%] flex-col items-center justify-center md:h-full ">
-      
-            <img
-              src={`${themeContext.themeMode === "dark" ? SignLight : SignDark}`}
-              className="w-80 h-30 "
-              alt="sign"
-            />
-            <div
-              className="slate font-[330] leading-normal  tracking-tight
-                          opacity-60 text-[0.6rem] lg:text-2xl "
-            >
-              tonyghouseofficial@gmail.com
-            </div>
-          </div>
+
+          <ProfileCard/>
+
 
           <div className="flex h-full w-[100%] flex-col">
-            <div className="slate pb-3 text-[1.2rem] leading-normal md:text-[1.5rem] font-Poppins">
+            <div className="slate pb-3 text-[1.2rem] leading-normal md:text-[1.5rem] font-poppins">
               Drop a Message
             </div>
 

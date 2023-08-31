@@ -72,11 +72,11 @@ function Skills() {
       >
         <div className="flex items-center w-full  header-line">
           <span className="mr-4 text-xl accent font-monospace">01.</span>
-          <h3 className="text-2xl whitespace-nowrap slate font-[600] font-Poppins">
+          <h3 className="text-2xl whitespace-nowrap slate font-[600] font-poppins">
             Skills
           </h3>
         </div>
-        <div className="grid items-center w-full justify-items-center custom-grid-template div-back  ">
+        <div className="grid items-center w-full  justify-items-center custom-grid-template div-back  ">
           {skillList.map((skill) => (
             <div
               key={skill.name}

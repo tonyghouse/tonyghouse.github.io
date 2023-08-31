@@ -31,8 +31,8 @@ function Project({ title, description, links, tags }:any) {
             })}
           </div>
         </div>
-        <h4 className="slate pt-6 cursor-default font-[600] font-Poppins">{title}</h4>
-        <p className={`slate pt-2 text-sm cursor-default font-Inter`}>
+        <h4 className="slate pt-6 cursor-default font-[600] font-poppins">{title}</h4>
+        <p className={`slate pt-2 text-sm cursor-default font-inter`}>
           {description}
         </p>
         <ul className="flex flex-wrap items-center mt-6 text-sm cursor-default font-[450] slate opacity-60 font-monospace">

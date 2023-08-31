@@ -18,9 +18,8 @@ module.exports = {
     extend: {
       fontFamily: {
         monospace: ['Roboto Mono', 'monospace'],
-        Poppins: ["Poppins", "sans-serif"],
-        Inter: ["Inter", "sans-serif"],
-        handy:["Great Vibes", "cursive"]
+        poppins: ["Poppins", "sans-serif"],
+        inter: ["Inter", "sans-serif"]
       },
       screens: {
         'below-md': "860px",

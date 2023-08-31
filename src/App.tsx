@@ -19,7 +19,7 @@ function App() {
         <Experience/>
         <Projects />
         <Contributions />
-        <Contact/>
+        {/* <Contact/> */}
         <Footer/>
       </ThemeContextDefaultProvider>
      

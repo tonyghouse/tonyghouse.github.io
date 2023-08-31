@@ -40,11 +40,11 @@ function Experience() {
            className="flex flex-col items-center w-full text-left section-padding section-margin">
         <div className="flex items-center w-full pb-8 header-line">
           <span className="mr-4 text-xl accent font-monospace">02.</span>
-          <span className="text-[22px] whitespace-nowrap slate font-Poppins font-[600]">
+          <span className="text-[22px] whitespace-nowrap slate font-poppins font-[600]">
             Experience
           </span>
         </div>
-        <p className="w-full mb-3 leading-7 slate font-Inter ">
+        <p className="w-full mb-3 leading-7 slate font-inter ">
           As of 2023, I have 3 years of professional developer experience in building backend applications.
            Along side worked and contributed to prominent open-source projects.
         </p>
@@ -69,7 +69,7 @@ function Experience() {
             {Object.keys(experienceRecord).map((k, i) => {
               return (
                 <div key={k} className={`${activeTab === i ? "" : "hidden"}`}>
-                  <div className={`font-Poppins text-xl mb-1 font-[500]`}>
+                  <div className={`font-poppins text-xl mb-1 font-[500]`}>
                     <span className="mr-2 slate">{experienceRecord[k].position}</span>
                     <a href={experienceRecord[k].url} className={"accent"} target="_blank" rel="noreferrer" >
                       @ {experienceRecord[k].organisation}
@@ -78,7 +78,7 @@ function Experience() {
                   <span className={"slate text-sm font-monospace"}>
                     {experienceRecord[k].duration}
                   </span>
-                  <ul className="flex flex-col mt-4 text-sm leading-6 bullet-list slate-alt font-Inter">
+                  <ul className="flex flex-col mt-4 text-sm leading-6 bullet-list slate-alt font-inter">
                     {Object.values(experienceRecord[k].content).map((v:any) => (
                       <li key={v} className={"mb-2"}>{v}</li>
                     ))}

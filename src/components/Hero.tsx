@@ -13,19 +13,20 @@ function Hero() {
       <div className=" flex flex-row justify-start w-full h-full below-md:h-[75vh] gap-2 mt-1 section-padding section-margin">
         <div className="flex flex-col justify-center w-full  below-md:w-[55%] ">
           <div className="flex flex-row items-center justify-start ">
-            <h1 className="inline-block slate mb-2 mt-6 md:mt-8 py-1 text-4xl font-[600] md:py-2 md:text-[2.3rem] md:leading-[2.7rem] lg:text-[2.7rem] lg:leading-[3rem] font-Poppins ">
+            <h1 className="inline-block slate mb-2 mt-6 md:mt-8 py-1 text-4xl font-[600] 
+            md:py-2 md:text-[2.3rem] md:leading-[2.7rem] lg:text-[2.7rem] lg:leading-[3rem] font-poppins ">
              Tony Ghouse
             </h1>
           </div>
 
           <h2
             className="slate py-1 mb-1 text-[1.6rem] font-[600] leading-normal tracking-tight opacity-60
-                          md:py-2 md:text-[1.7rem]  lg:text-[2rem] font-Poppins "
+                          md:py-2 md:text-[1.7rem]  lg:text-[2rem] font-poppins "
           >
             Software craftsman
           </h2>
           <br />
-          <p className=" slate lg:text-text-[1.6rem] max-w-[50rem] text-[0.9rem] leading-normal opacity-90  md:text-[1.2rem] font-Inter ">
+          <p className=" slate lg:text-text-[1.6rem] max-w-[50rem] text-[0.9rem] leading-normal opacity-90  md:text-[1.2rem] font-inter ">
             I’m a developer and computer science grad specialized in backend
             development and building software with exceptional performance and
             scalabilty. Currently, I’m focused on building skills, projects and
