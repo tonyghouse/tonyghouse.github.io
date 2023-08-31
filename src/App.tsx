@@ -7,20 +7,20 @@ import Projects from "./components/Projects";
 import Contributions from "./components/Contributions";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import MasterLayout from "./components/MasterLayout";
 
 function App() {
 
   return (
     <>
      <ThemeContextDefaultProvider>
-        <Navbar/>
-        <Hero/>
-        <Skills/>
-        <Experience/>
-        <Projects />
-        <Contributions />
-        {/* <Contact/> */}
-        <Footer/>
+     <Navbar />
+        
+        <Routes>
+          <Route path="/" element={<MasterLayout />} />
+          <Route path="/contributions" element={<Contributions />} />
+        </Routes>
       </ThemeContextDefaultProvider>
      
     </>
