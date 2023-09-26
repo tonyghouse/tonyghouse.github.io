@@ -5,6 +5,7 @@ import { FaAdjust, FaAlignJustify } from "react-icons/fa";
 import { RxSun, RxMoon } from "react-icons/rx";
 import TonyLightLogo from "../assets/svgs/tonylightlogo.svg";
 import TonyDarkLogo from "../assets/svgs/tonydarklogo.svg";
+import ResumeButton from "./ResumeButton";
 
 function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
@@ -57,7 +58,7 @@ function Navbar() {
                        md:flex-row md:text-[0.95rem] md:leading-[3rem]"
         >
           {navlinks.map((navLink) => (
-            <li key={navLink.id} className="px-5 py-3 md:px-4 md:py-0 ">
+            <li key={navLink.id} className="px-5 py-3 md:px-4 md:py-0">
               <Link
                 onClick={toggleSideMenu}
                 className="hover-accent"
@@ -71,6 +72,7 @@ function Navbar() {
               </Link>
             </li>
           ))}
+          <ResumeButton/>
           <li key="theme" className="px-5 py-3 md:px-4 md:py-0 ">
             <button onClick={toggleTheme}>
               {themeContext.themeMode === "dark" ? <RxMoon /> : <RxSun />}
@@ -78,11 +80,14 @@ function Navbar() {
           </li>
         </ul>
       </div>
+      <div className="flex flex-row md:hidden items-center" >
+      <ResumeButton/>
       <FaAlignJustify
         onClick={toggleSideMenu}
         className={`
-                    z-[100] w-[1rem] cursor-pointer text-center text-xl md:hidden accent`}
+                    z-[100] w-[1rem] cursor-pointer text-center text-xl accent `}
       />
+      </div>
     </nav>
   );
 }
