@@ -72,7 +72,9 @@ function Navbar() {
               </Link>
             </li>
           ))}
+          <div className="hidden md:block">
           <ResumeButton/>
+          </div>
           <li key="theme" className="px-5 py-3 md:px-4 md:py-0 ">
             <button onClick={toggleTheme}>
               {themeContext.themeMode === "dark" ? <RxMoon /> : <RxSun />}
