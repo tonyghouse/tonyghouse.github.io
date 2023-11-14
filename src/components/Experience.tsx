@@ -6,7 +6,7 @@ function Experience() {
       position: "Senior Backend Developer",
       organisation: "LTI Mindtree",
       url: "https://www.ltimindtree.com/",
-      duration: "Jan 2023 - present",
+      duration: "Jan 2023 - Oct 2023",
       content: [
         "Played a crucial role in designing application workflow by identifying minimal API endpoints required",
         "Designed and implemented primary workflow of application which reduced the development time by 1/2 ",

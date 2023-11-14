@@ -23,7 +23,7 @@ function Hero() {
             className="slate py-1 mb-1 text-[1.6rem] font-[600] leading-normal tracking-tight opacity-60
                           md:py-2 md:text-[1.7rem]  lg:text-[2rem] font-poppins "
           >
-            Software craftsman
+            Software Developer
           </h2>
           <br />
           <p className=" slate lg:text-text-[1.6rem] max-w-[50rem] text-[0.9rem] leading-normal opacity-90  md:text-[1.2rem] font-inter ">
