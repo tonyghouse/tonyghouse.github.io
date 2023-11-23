@@ -4,7 +4,6 @@ import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
 import { FaAdjust, FaAlignJustify } from "react-icons/fa";
 import { RxSun, RxMoon } from "react-icons/rx";
 import TonyLightLogo from "../assets/svgs/tonylightlogo.svg";
-import TonyDarkLogo from "../assets/svgs/tonydarklogo.svg";
 
 function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
