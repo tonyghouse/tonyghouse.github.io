@@ -5,7 +5,6 @@ import { FaAdjust, FaAlignJustify } from "react-icons/fa";
 import { RxSun, RxMoon } from "react-icons/rx";
 import TonyLightLogo from "../assets/svgs/tonylightlogo.svg";
 import TonyDarkLogo from "../assets/svgs/tonydarklogo.svg";
-import ResumeButton from "./ResumeButton";
 
 function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
@@ -72,9 +71,6 @@ function Navbar() {
               </Link>
             </li>
           ))}
-          <div className="hidden md:block">
-          <ResumeButton/>
-          </div>
           <li key="theme" className="px-5 py-3 md:px-4 md:py-0 ">
             <button onClick={toggleTheme}>
               {themeContext.themeMode === "dark" ? <RxMoon /> : <RxSun />}
@@ -83,7 +79,6 @@ function Navbar() {
         </ul>
       </div>
       <div className="flex flex-row md:hidden items-center" >
-      <ResumeButton/>
       <FaAlignJustify
         onClick={toggleSideMenu}
         className={`
