@@ -15,9 +15,6 @@ function HeroAnimo() {
     <motion.img className=" object-contain h-full w-full "
       key={`${themeContext.themeMode === "dark" ? "dark-hero-animo" : "light-hero-animo" }`}
       src={`${themeContext.themeMode === "dark" ? HeroBannerDarkImage : HeroBannerLightImage }`}
-      initial={{ x: 100, opacity: 0 }}
-      transition= {{ duration: 1 }}
-      animate={{ x: 0,y:0, opacity: 1 }}
      
     />
   </AnimatePresence>
