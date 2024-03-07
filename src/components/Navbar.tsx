@@ -4,6 +4,7 @@ import { IThemeContextType, ThemeContext } from "../context/ThemeContext";
 import { FaAdjust, FaAlignJustify } from "react-icons/fa";
 import { RxSun, RxMoon } from "react-icons/rx";
 import TonyLightLogo from "../assets/svgs/tonylightlogo.svg";
+import ResumeButton from "./ResumeButton";
 
 function Navbar() {
   const [sideMenu, setSideMenu] = useState(false);
@@ -70,6 +71,7 @@ function Navbar() {
               </Link>
             </li>
           ))}
+          <ResumeButton/>
           <li key="theme" className="px-5 py-3 md:px-4 md:py-0 ">
             <button onClick={toggleTheme}>
               {themeContext.themeMode === "dark" ? <RxMoon /> : <RxSun />}
