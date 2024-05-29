@@ -2,8 +2,8 @@ import React , {useContext} from "react";
 
 import MemoiristDarkBanner from "../assets/images/projects/memoirist-banner-dark.png";
 import MemoiristLightBanner from "../assets/images/projects/memoirist-banner-light.png";
-// import SocialRavenDarkBanner from "../assets/images/projects/socialraven-banner-dark.png";
-// import SocialRavenLightBanner from "../assets/images/projects/socialraven-banner-light.png";
+import SocialRavenDarkBanner from "../assets/images/projects/socialraven-banner-dark.png";
+import SocialRavenLightBanner from "../assets/images/projects/socialraven-banner-light.png";
 import ViscodyDarkBanner from "../assets/images/projects/viscody-banner-dark.png";
 import ViscodyLightBanner from "../assets/images/projects/viscody-banner-light.png";
 import FeaturedProject from "./FeaturedProject";
@@ -18,7 +18,7 @@ function Projects() {
       name: "Memoirist - Day logging tool",
       description:
         "A Day logging tool which helps users to log their daily activities,photos, videos etc",
-      tags: ["SpringBoot", "React", "Postgres", "MeiliSearch", "Redis"],
+      tags: ["SpringBoot", "ReactJs / NextJs", "Postgres", "MeiliSearch", "Redis"],
 
       links:[{
         "icon":<FaGithub/>,
@@ -31,27 +31,27 @@ function Projects() {
       imageLight: MemoiristLightBanner,
       imageDark: MemoiristDarkBanner,
     },
-    // {
-    //   name: "Social Raven - Social media management tool",
-    //   description:
-    //     "Social media management tool that helps in scheduling posts, analyse traffic for social media accounts",
-    //   tags: ["SpringBoot", "React", "Postgres", "KeyCloak", "Kafka", "Redis"],
-    //   links:[{
-    //     "icon":<FaGithub/>,
-    //     "url":"https://github.com/tonyghouse/social-raven"
-    //   },
-    //   {
-    //     "icon":<FaExternalLinkAlt/>,
-    //     "url":"https://socialraven.tonyghouse.com"
-    //   }]
-    //   imageLight: SocialRavenLightBanner,
-    //   imageDark: SocialRavenDarkBanner,
-    // },
+    {
+      name: "Social Raven - Social media management tool",
+      description:
+        "Social media management tool that helps in scheduling posts, analyse traffic for social media accounts",
+      tags: ["SpringBoot", "ReactJs / NextJs", "Postgres", "KeyCloak", "Kafka", "Redis"],
+      links:[{
+        "icon":<FaGithub/>,
+        "url":"https://github.com/tonyghouse/social-raven"
+      },
+      {
+        "icon":<FaExternalLinkAlt/>,
+        "url":"https://socialraven.tonyghouse.com"
+      }],
+      imageLight: SocialRavenLightBanner,
+      imageDark: SocialRavenDarkBanner,
+    },
     {
       name: "Viscody - Data visualization tool",
       description:
         "Data visualization tool that helps in visualizing Json, Yaml, Xml, Csv etc",
-      tags: ["React", "Tailwind", "ReactFlow", "CodeEditor"],
+      tags: ["ReactJs / NextJs", "Tailwind", "ReactFlow", "Monaco Code Editor"],
       links:[{
         "icon":<FaGithub/>,
         "url":"https://github.com/tonyghouse/viscody"
@@ -79,16 +79,20 @@ function Projects() {
           "url":"https://regel.tonyghouse.com"
         }
       ],
-      tags: ["Javascript", "React"],
+      tags: ["Javascript", "ReactJs / NextJs"],
     },
     {
-      title: "Knight - Auth server",
-      description: "Authenticaion & Authorization server with simplicity",
+      title: "AlgoAtlas - Crack Data structures & Algorithms",
+      description: "Crack Data structures & Algorithms",
       links: [ {
         "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/knight-auth-server"
+        "url":"https://github.com/tonyghouse/algo-atlas-ui"
+      },
+      {
+        "icon":<FaExternalLinkAlt/>,
+        "url":"https://algoatlas.tonyghouse.com"
       }],
-      tags: ["Javascript", "Cloudflare-Workers", "Keycloak", "Postgres"],
+      tags: ["Javascript", "ReactJs / NextJs"],
     },
     {
       title: "Tern - Monitoring tool",
