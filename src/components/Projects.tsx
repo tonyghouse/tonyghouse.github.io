@@ -15,30 +15,13 @@ function Projects() {
 
   const featuredProjectList = [
     {
-      name: "Memoirist - Day logging tool",
-      description:
-        "A Day logging tool which helps users to log their daily activities,photos, videos etc",
-      tags: ["SpringBoot", "ReactJs / NextJs", "Postgres", "MeiliSearch", "Redis"],
-
-      links:[{
-        "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/memoirist"
-      },
-      {
-        "icon":<FaExternalLinkAlt/>,
-        "url":"https://memoirist.tonyghouse.com"
-      }],
-      imageLight: MemoiristLightBanner,
-      imageDark: MemoiristDarkBanner,
-    },
-    {
       name: "Social Raven - Social media management tool",
       description:
         "Social media management tool that helps in scheduling posts, analyse traffic for social media accounts",
-      tags: ["SpringBoot", "ReactJs / NextJs", "Postgres", "KeyCloak", "Kafka", "Redis"],
+      tags: ["SpringBoot", "ReactJs / NextJs", "Postgres", "Kafka", "Redis"],
       links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/social-raven"
+        "url":"https://github.com/tonyghouse/socialraven-ui"
       },
       {
         "icon":<FaExternalLinkAlt/>,
@@ -48,17 +31,34 @@ function Projects() {
       imageDark: SocialRavenDarkBanner,
     },
     {
-      name: "Viscody - Data visualization tool",
+      name: "ConvoMail - Streamline Your Inbox, Amplify Your Chat",
       description:
-        "Data visualization tool that helps in visualizing Json, Yaml, Xml, Csv etc",
-      tags: ["ReactJs / NextJs", "Tailwind", "ReactFlow", "Monaco Code Editor"],
+        "ConvoMail transforms your email experience by blending the efficiency of chat with the professionalism of traditional emailing.",
+      tags: ["SpringBoot", "ReactJs / NextJs", "Postgres", "MeiliSearch", "Redis"],
+
       links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/viscody"
+        "url":"https://github.com/tonyghouse/convomail-ui"
       },
       {
         "icon":<FaExternalLinkAlt/>,
-        "url":"https://viscody.tonyghouse.com"
+        "url":"https://convomail.tonyghouse.com"
+      }],
+      imageLight: MemoiristLightBanner,
+      imageDark: MemoiristDarkBanner,
+    },
+    {
+      name: "Supetools - tools to supercharge your productivity",
+      description:
+        "Supetools - app that helps in visualizing Json, Yaml, Xml, Csv etc",
+      tags: ["ReactJs / NextJs", "Tailwind", "ReactFlow", "Monaco Code Editor"],
+      links:[{
+        "icon":<FaGithub/>,
+        "url":"https://github.com/tonyghouse/supetools-ui"
+      },
+      {
+        "icon":<FaExternalLinkAlt/>,
+        "url":"https://supetools.tonyghouse.com"
       }],
       imageLight: ViscodyLightBanner,
       imageDark: ViscodyDarkBanner,
@@ -67,30 +67,28 @@ function Projects() {
 
   const otherProjectList = [
     {
-      title: "Regel - Regular Expression helper tool",
-      description: "Regular Expression helper tool written in javascript",
-      links: [
-        {
-          "icon":<FaGithub/>,
-          "url":"https://github.com/tonyghouse/regel"
-        },
-        {
-          "icon":<FaExternalLinkAlt/>,
-          "url":"https://regel.tonyghouse.com"
-        }
-      ],
-      tags: ["Javascript", "ReactJs / NextJs"],
-    },
-    {
-      title: "AlgoAtlas - Crack Data structures & Algorithms",
-      description: "Crack Data structures & Algorithms",
-      links: [ {
+      title: "MailMaker - Craft mails that look awesome",
+      description: "Craft mails with awesome UI",
+      links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/algo-atlas-ui"
+        "url":"https://github.com/tonyghouse/mailmaker-ui"
       },
       {
         "icon":<FaExternalLinkAlt/>,
-        "url":"https://algoatlas.tonyghouse.com"
+        "url":"https://mailmaker.tonyghouse.com"
+      }],
+      tags: ["ReactJs / NextJs"],
+    },
+    {
+      title: "DBCrafter - Db Utility tools",
+      description: "Util tools for your db",
+      links: [ {
+        "icon":<FaGithub/>,
+        "url":"https://github.com/tonyghouse/dbcrafter-ui"
+      },
+      {
+        "icon":<FaExternalLinkAlt/>,
+        "url":"https://dbcrafter.tonyghouse.com"
       }],
       tags: ["Javascript", "ReactJs / NextJs"],
     },
@@ -99,13 +97,40 @@ function Projects() {
       description: "Monitoring tool to observe apps in environments",
       links:[{
         "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/tern-monitoring-tool"
+        "url":"https://github.com/tonyghouse/tern-monitoring-tool-ui"
       },
       {
         "icon":<FaExternalLinkAlt/>,
         "url":"https://tern.tonyghouse.com"
       }],
-      tags: ["Java", "Spring", "Postgres", "Kafka"],
+      tags: ["Java", "Spring", "Postgres", "Kafka", "ReactJs / NextJs"],
+    },
+  
+    {
+      title: "RollbackRanger - Roolback the data modified by API",
+      description: "Tool to rollback the data modified by API",
+      links:[{
+        "icon":<FaGithub/>,
+        "url":"https://github.com/tonyghouse/rollbackranger-ui"
+      },
+      {
+        "icon":<FaExternalLinkAlt/>,
+        "url":"https://rollbackranger.tonyghouse.com"
+      }],
+      tags: ["Java", "Spring", "Postgres", "Kafka", "ReactJs / NextJs"],
+    },
+    {
+      title: "NoteKnack - browser extension to save notes for different sites",
+      description: "Browser extension to save notes for different sites",
+      links:[{
+        "icon":<FaGithub/>,
+        "url":"https://github.com/tonyghouse/noteknack-extension"
+      },
+      {
+        "icon":<FaExternalLinkAlt/>,
+        "url":"https://noteknack.tonyghouse.com"
+      }],
+      tags: ["Javascript"],
     },
   ];
 
