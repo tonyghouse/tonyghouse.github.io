@@ -44,8 +44,8 @@ function Projects() {
         "icon":<FaExternalLinkAlt/>,
         "url":"https://convomail.tonyghouse.com"
       }],
-      imageLight: MemoiristLightBanner,
-      imageDark: MemoiristDarkBanner,
+      imageLight: "",
+      imageDark: "",
     },
     {
       name: "Supetools - tools to supercharge your productivity",

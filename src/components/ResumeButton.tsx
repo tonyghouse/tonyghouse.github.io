@@ -4,7 +4,7 @@ import ResumeFile from '../assets/files/Ghouse_Resume.pdf';
 function ResumeButton() {
   return (
    <>
-   <a href = {ResumeFile} target = "_blank">
+   {/* <a href = {ResumeFile} target = "_blank">
        <div className=" font-[440] mr-2 flex flex-col font-monospace 
                        text-[1rem] leading-[2rem] tracking-[0.17rem]
                        md:flex-row md:text-[0.95rem] md:leading-[3rem] hover:backdrop-blur-3x 
@@ -12,7 +12,7 @@ function ResumeButton() {
                        >
       Resume/CV 
       </div>
-      </a>
+      </a> */}
    </>
   )
 }
