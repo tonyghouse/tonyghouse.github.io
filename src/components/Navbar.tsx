@@ -33,7 +33,7 @@ function Navbar() {
     >
       <a href="/" className="cursor-pointer z-[100] ">
 
-        <div className={` ${themeContext.themeMode ==="dark" ? "" : "bg-[#090909]"} 
+        <div className={` ${themeContext.themeMode ==="dark" ? "" : "bg-[#030202]"} 
          flex items-center justify-start w-[3.6rem] h-[5.1rem]  md:w-[4.1rem]
          md:h-[5.1rem] `}>
           <img

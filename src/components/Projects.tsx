@@ -1,11 +1,7 @@
 import React , {useContext} from "react";
 
-import MemoiristDarkBanner from "../assets/images/projects/memoirist-banner-dark.png";
-import MemoiristLightBanner from "../assets/images/projects/memoirist-banner-light.png";
 import SocialRavenDarkBanner from "../assets/images/projects/socialraven-banner-dark.png";
 import SocialRavenLightBanner from "../assets/images/projects/socialraven-banner-light.png";
-import ViscodyDarkBanner from "../assets/images/projects/viscody-banner-dark.png";
-import ViscodyLightBanner from "../assets/images/projects/viscody-banner-light.png";
 import FeaturedProject from "./FeaturedProject";
 import Project from "./Project";
 import {FaExternalLinkAlt,FaGithub} from "react-icons/fa";
@@ -46,23 +42,7 @@ function Projects() {
       }],
       imageLight: "",
       imageDark: "",
-    },
-    {
-      name: "Supetools - tools to supercharge your productivity",
-      description:
-        "Supetools - app that helps in visualizing Json, Yaml, Xml, Csv etc",
-      tags: ["ReactJs / NextJs", "Tailwind", "ReactFlow", "Monaco Code Editor"],
-      links:[{
-        "icon":<FaGithub/>,
-        "url":"https://github.com/tonyghouse/supetools-ui"
-      },
-      {
-        "icon":<FaExternalLinkAlt/>,
-        "url":"https://supetools.tonyghouse.com"
-      }],
-      imageLight: ViscodyLightBanner,
-      imageDark: ViscodyDarkBanner,
-    },
+    }
   ];
 
   const otherProjectList = [
